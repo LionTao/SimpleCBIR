@@ -1,0 +1,9 @@
+[submodule "modules/ColourDifference"]
+	path = modules/ColourDifference
+	url = git@github.com:LionTao/ColourDifference.git
+[submodule "modules/PatternDifference"]
+	path = modules/PatternDifference
+	url = git@github.com:LionTao/PatternDifference.git
+[submodule "modules/ImageFeatureExtract"]
+	path = modules/ImageFeatureExtract
+	url = git@github.com:LionTao/ImageFeatureExtract.git
