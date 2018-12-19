@@ -7,3 +7,6 @@
 [submodule "modules/ImageFeatureExtract"]
 	path = modules/ImageFeatureExtract
 	url = git@github.com:LionTao/ImageFeatureExtract.git
+[submodule "modules/CBIRDataset"]
+	path = modules/CBIRDataset
+	url = git@github.com:LionTao/CBIRDataset.git
