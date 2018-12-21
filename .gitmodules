@@ -1,0 +1,3 @@
+[submodule "modules/CBIRDataset"]
+	path = modules/CBIRDataset
+	url = https://github.com/LionTao/CBIRDataset.git
