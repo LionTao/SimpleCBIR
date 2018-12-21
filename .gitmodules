@@ -1,12 +1,13 @@
-[submodule "modules/ColourDifference"]
-	path = modules/ColourDifference
-	url = git@github.com:LionTao/ColourDifference.git
-[submodule "modules/PatternDifference"]
-	path = modules/PatternDifference
-	url = git@github.com:LionTao/PatternDifference.git
-[submodule "modules/ImageFeatureExtract"]
-	path = modules/ImageFeatureExtract
-	url = git@github.com:LionTao/ImageFeatureExtract.git
-[submodule "modules/CBIRDataset"]
-	path = modules/CBIRDataset
-	url = git@github.com:LionTao/CBIRDataset.git
+
+[submodule ".\\modules\\CBIRDataset"]
+	path = .\\modules\\CBIRDataset
+	url = https://github.com/LionTao/CBIRDataset.git
+[submodule ".\\modules\\ColourDifference"]
+	path = .\\modules\\ColourDifference
+	url = https://github.com/LionTao/ColourDifference.git
+[submodule ".\\modules\\ImageFeatureExtract"]
+	path = .\\modules\\ImageFeatureExtract
+	url = https://github.com/LionTao/ImageFeatureExtract.git
+[submodule ".\\modules\\PatternDifference"]
+	path = .\\modules\\PatternDifference
+	url = https://github.com/LionTao/PatternDifference.git
