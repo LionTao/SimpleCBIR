@@ -1,8 +1,8 @@
 .idea
 .idea/*.xml
 .idea/*.iml
-__pycache__\
-**\__pycache__\
+__pycache__/
+**/__pycache__/
 # SimpeCBIR/__pycache__/
 # modules/__pycache__/
 # main/__pycache__/
