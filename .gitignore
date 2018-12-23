@@ -6,8 +6,6 @@ __pycache__/
 # SimpeCBIR/__pycache__/
 # modules/__pycache__/
 # main/__pycache__/
-db.sqlite3
-/db.sqlite3
 .idea/*
 *.iws
 *.iml
@@ -85,3 +83,4 @@ fabric.properties
 # Android studio 3.1+ serialized cache file
 .idea/caches/build_file_checksums.ser
 /db.sqlite3
+!/db.sqlite3
