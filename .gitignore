@@ -7,7 +7,6 @@ modules/__pycache__/
 main/__pycache__/
 db.sqlite3
 .idea/*
-.idea
 *.iws
 *.iml
 *.ipr
