@@ -1,10 +1,11 @@
 .idea
 .idea/*.xml
 .idea/*.iml
-__pycache__/
-SimpeCBIR/__pycache__/
-modules/__pycache__/
-main/__pycache__/
+__pycache__\
+**\__pycache__\
+# SimpeCBIR/__pycache__/
+# modules/__pycache__/
+# main/__pycache__/
 db.sqlite3
 .idea/*
 *.iws
@@ -12,6 +13,10 @@ db.sqlite3
 *.ipr
 .mvn
 mvnw*
+
+# Python:
+*.py[cod]
+
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
