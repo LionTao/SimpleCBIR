@@ -10,7 +10,7 @@ body: {
     featureExtractionMethod string, //"2-A"
     similarityCalculationMethod string //"3-A"
 }
-response:{
+response: {
     status: 200/error code
 }
 ```
@@ -38,7 +38,7 @@ response:{
         texture: string, // path of the generated image
         shape: string // path of the generated image
     },
-    results:{
+    results: {
         one: {
             similarity: string, //"99.9%"
             path: string //path of the most similar image,
@@ -76,7 +76,7 @@ response:{
 method: get
 url: /api/image
 query: ?i=path
-response:{
+response: {
     status: 200/error code
 }
 ```
