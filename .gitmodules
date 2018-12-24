@@ -10,3 +10,6 @@
 [submodule "modules/PatternDifference"]
 	path = modules/PatternDifference
 	url = https://github.com/LionTao/PatternDifference.git
+[submodule "modules/CNN-CBIR"]
+	path = modules/CNN-CBIR
+	url = https://github.com/LionTao/CNN-CBIR.git
