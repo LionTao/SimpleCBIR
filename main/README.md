@@ -1,6 +1,6 @@
 ## 上传图片
 
-```json
+```rest
 method: post
 url: /api/start
 content-type: application/json
@@ -28,7 +28,7 @@ response: {
 
 ## result.json
 
-```json
+```rest
 {
     rawImage: string, // the raw path
     recallRatio: string, //"92.5%" 查全率
@@ -72,7 +72,7 @@ response: {
 
 ## 获得图片
 
-```json
+```rest
 method: get
 url: /api/image
 query: ?i=path
