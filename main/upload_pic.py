@@ -16,16 +16,27 @@ def upload_pic(request):
             encoded_json = request.body.decode('utf-8')
             json_body = json.loads(encoded_json)
             path = json_body['path']
-            preprocessMethod = json_body['path']
+            preprocessMethod = json_body['preprocessMethod']
             featureExtractionMethod = json_body['featureExtractionMethod']
             similarityCalculationMethod = json_body['similarityCalculationMethod']
             # ===============================
 
             # Compute
             # ===============================
+            if preprocessMethod == 'X':
+                pass
+            elif preprocessMethod == 'Y':
+                pass
 
-            # Somehow get the answer
+            if featureExtractionMethod == 'A':
+                pass
+            elif featureExtractionMethod == 'B':
+                pass
 
+            if similarityCalculationMethod == 'M':
+                pass
+            elif similarityCalculationMethod == 'N':
+                pass
             # ===============================
 
             # Generate the json
