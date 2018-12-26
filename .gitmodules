@@ -13,9 +13,9 @@
 [submodule "modules/CNN-CBIR"]
 	path = modules/CNN-CBIR
 	url = https://github.com/LionTao/CNN-CBIR.git
-[submodule "modules/ImageFeatureVector"]
-	path = modules/ImageFeatureVector
-	url = https://github.com/LionTao/ImageFeatureVector.git
 [submodule "modules/ObjectDetection"]
 	path = modules/ObjectDetection
 	url = https://github.com/LionTao/ObjectDetection.git
+[submodule "modules/ImageFeatureVector"]
+	path = modules/ImageFeatureVector
+	url = https://github.com/LionTao/ImageFeatureVector.git
