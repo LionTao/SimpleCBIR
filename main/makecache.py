@@ -14,10 +14,6 @@ def initCNNCBIR(dbpath):
     print("Database Cached at", dbpath + "index.sqlite")
 
 
-def feature_vector():
-    from modules.ImageFeatureVector.HistogramVector.hisvec import get_his
-
-
 
 if __name__ == '__main__':
     from modules.CNNCBIR.search_api import search
