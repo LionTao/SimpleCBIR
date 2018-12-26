@@ -21,6 +21,12 @@ def upload_pic(request):
             similarityCalculationMethod = json_body['similarityCalculationMethod']
             # ===============================
 
+            # Dataset
+            # ===============================
+            dataset_dir = '../modules/CBIRDataset/dataset'
+            
+            # ===============================
+
             # Compute
             # ===============================
             if preprocessMethod == 'X':
