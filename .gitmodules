@@ -1,0 +1,21 @@
+[submodule "modules/ObjectDetection"]
+	path = modules/ObjectDetection
+	url = https://github.com/LionTao/ObjectDetection.git
+[submodule "modules/ImageFeatureExtract"]
+	path = modules/ImageFeatureExtract
+	url = https://github.com/LionTao/ImageFeatureExtract.git
+[submodule "modules/CNNCBIR"]
+	path = modules/CNNCBIR
+	url = https://github.com/LionTao/CNN_CBIR.git
+[submodule "modules/PatternDifference"]
+	path = modules/PatternDifference
+	url = https://github.com/LionTao/PatternDifference.git
+[submodule "modules/ColourDifference"]
+	path = modules/ColourDifference
+	url = https://github.com/LionTao/ColourDifference.git
+[submodule "modules/ImageFeatureVector"]
+	path = modules/ImageFeatureVector
+	url = https://github.com/LionTao/ImageFeatureVector.git
+[submodule "modules/CBIRDataset"]
+	path = modules/CBIRDataset
+	url = https://github.com/LionTao/CBIRDataset.git
