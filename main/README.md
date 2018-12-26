@@ -31,12 +31,14 @@ response: {
 ```rest
 {
     rawImage: string, // the raw path
-    recallRatio: string, //"92.5%" 查全率
-    precision: string, //"87.5%" 查准率
+    recallRatio: string, // "92.5%" 查全率
+    precision: string, // "87.5%" 查准率
+    position: string, // path of the target marked image
     features: {
         color: string, // path of the generated image
         texture: string, // path of the generated image
         shape: string // path of the generated image
+        position: string // path of the target marked image
     },
     results: {
         one: {
